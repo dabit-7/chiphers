@@ -13,6 +13,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Cifras">
 <link rel="apple-touch-icon" href="icon-192.png">
+<script src="songs.js"></script>
+<script src="playlists.js"></script>
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
@@ -1355,39 +1357,22 @@ window.addEventListener('popstate',()=>{
 /* ═══════════════════════════════════════════
    BOOT — carrega JSONs externos e inicia o app
 ═══════════════════════════════════════════ */
-async function loadData() {
-  // Show loading state
-  document.getElementById('pl-list').innerHTML =
-    `<div style="padding:40px 20px;text-align:center;color:var(--text-tertiary);font-size:14px">
-       <div style="font-size:32px;margin-bottom:12px">♪</div>
-       Carregando playlists…
-     </div>`;
-
-  try {
-    const [songsRes, playlistsRes] = await Promise.all([
-      fetch('songs.json'),
-      fetch('playlists.json')
-    ]);
-
-    if (!songsRes.ok)      throw new Error(`songs.json: ${songsRes.status} ${songsRes.statusText}`);
-    if (!playlistsRes.ok)  throw new Error(`playlists.json: ${playlistsRes.status} ${playlistsRes.statusText}`);
-
-    ALL_SONGS = await songsRes.json();
-    PLAYLISTS  = await playlistsRes.json();
-
-    buildHome();
-
-  } catch (err) {
+function loadData() {
+  if (typeof SONGS_DATA === 'undefined' || typeof PLAYLISTS_DATA === 'undefined') {
     document.getElementById('pl-list').innerHTML =
       `<div style="padding:40px 20px;text-align:center;color:var(--text-tertiary);font-size:13px;line-height:1.6">
          <div style="font-size:32px;margin-bottom:12px">⚠️</div>
          <strong style="color:var(--text-secondary)">Erro ao carregar os dados</strong><br>
-         <span style="font-family:'JetBrains Mono',monospace;font-size:11px">${err.message}</span><br><br>
-         Verifique se os arquivos <code>songs.json</code> e <code>playlists.json</code>
+         <span style="font-family:'JetBrains Mono',monospace;font-size:11px">SONGS_DATA ou PLAYLISTS_DATA não definidos</span><br><br>
+         Verifique se os arquivos <code>songs.js</code> e <code>playlists.js</code>
          estão na mesma pasta do <code>index.html</code>.
        </div>`;
-    console.error('[Cifras] Falha ao carregar dados:', err);
+    console.error('[Cifras] songs.js ou playlists.js não carregados.');
+    return;
   }
+  ALL_SONGS = SONGS_DATA;
+  PLAYLISTS  = PLAYLISTS_DATA;
+  buildHome();
 }
 
 loadData();

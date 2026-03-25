@@ -1,44 +1,8 @@
 [
-  {
-    "id": "pl1",
-    "nome": "Sertanejo Raiz",
-    "desc": "Clássicos do sertanejo",
-    "emoji": "🤠",
-    "ids": [1, 2]
-  },
-  {
-    "id": "pl2",
-    "nome": "Rock Clássico",
-    "desc": "Grandes hits internacionais",
-    "emoji": "🎸",
-    "ids": [3, 4, 6, 7]
-  },
-  {
-    "id": "pl3",
-    "nome": "Bossa & MPB",
-    "desc": "Brasileiríssimas",
-    "emoji": "🎷",
-    "ids": [2, 5]
-  },
-  {
-    "id": "pl4",
-    "nome": "Missa Dom. 08h",
-    "desc": "Repertório da missa de domingo",
-    "emoji": "⛪",
-    "ids": [1, 5, 8, 2]
-  },
-  {
-    "id": "pl5",
-    "nome": "Louvor & Adoração",
-    "desc": "Músicas de adoração",
-    "emoji": "🙏",
-    "ids": [7, 8]
-  },
-  {
-    "id": "pl6",
-    "nome": "Todas as Cifras",
-    "desc": "Repertório completo",
-    "emoji": "📚",
-    "ids": [1, 2, 3, 4, 5, 6, 7, 8]
-  }
+  { id:"pl1", nome:"Sertanejo Raiz",    desc:"Clássicos do sertanejo",             emoji:"🤠", ids:[1,2]       },
+  { id:"pl2", nome:"Rock Clássico",     desc:"Grandes hits internacionais",         emoji:"🎸", ids:[3,4,6,7]  },
+  { id:"pl3", nome:"Bossa & MPB",       desc:"Brasileiríssimas",                    emoji:"🎷", ids:[2,5]       },
+  { id:"pl4", nome:"Missa Dom. 08h",    desc:"Repertório da missa de domingo",      emoji:"⛪", ids:[1,5,8,2]   },
+  { id:"pl5", nome:"Louvor & Adoração", desc:"Músicas de adoração",                 emoji:"🙏", ids:[7,8]       },
+  { id:"pl6", nome:"Todas as Cifras",   desc:"Repertório completo",                 emoji:"📚", ids:ALL_SONGS.map(s=>s.id) }
 ]

@@ -1,8 +1,8 @@
 [
-  { id:"pl1", nome:"Sertanejo Raiz",    desc:"Clássicos do sertanejo",             emoji:"🤠", ids:[1,2]       },
-  { id:"pl2", nome:"Rock Clássico",     desc:"Grandes hits internacionais",         emoji:"🎸", ids:[3,4,6,7]  },
-  { id:"pl3", nome:"Bossa & MPB",       desc:"Brasileiríssimas",                    emoji:"🎷", ids:[2,5]       },
-  { id:"pl4", nome:"Missa Dom. 08h",    desc:"Repertório da missa de domingo",      emoji:"⛪", ids:[1,5,8,2]   },
-  { id:"pl5", nome:"Louvor & Adoração", desc:"Músicas de adoração",                 emoji:"🙏", ids:[7,8]       },
-  { id:"pl6", nome:"Todas as Cifras",   desc:"Repertório completo",                 emoji:"📚", ids:ALL_SONGS.map(s=>s.id) }
+  { id:"pl1", nome:"Lista A",    desc:"9h as 10h",             emoji:"🎹", ids:[20,21,22,23,24,25,26,27,28,29,30,31,32,80,33,34,35,36,71]       },
+  { id:"pl2", nome:"Lista B",     desc:"8h as 9h",         emoji:"🎻", ids:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,58,73,76,81,78,85]  },
+  { id:"pl3", nome:"Lista C",       desc:"7h as 8h",                    emoji:"🎸", ids:[79,37,38,39,40,41,42,43,44,45,56,57,48,49,56,82,77,83]       },
+  { id:"pl4", nome:"Lista D",    desc:"Saída 1",      emoji:"🎤", ids:[50,51,52,53,54,55,57,59,60,84]   },
+  { id:"pl5", nome:"Lista E", desc:"Saída 2",                 emoji:"🥁", ids:[62,63,67,68,69,72,73,79,84]       },
+  { id:"pl6", nome:"Todas as Cifras",   desc:"Repertório completo", emoji:"📚", ids:[0-84]},
 ]

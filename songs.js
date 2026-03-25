@@ -2,31 +2,47 @@ const SONGS_DATA = [
   { id:1, nome:"Eu te louvarei",interprete:"Ingrid ", tom:"A", bpm:72, cifra:`
 [intro] A Asus2 Asus4 (2x)
 
-[verso 1]  |repete 2x|
+[verso 1]  
 A           E/G#         
 Eu te louvarei, Senhor,
   D/F#      Dm/F   A/E  E 
 de todo meu cora - ção
 
+A           E/G#         
+Eu te louvarei, Senhor,
+  D/F#      Dm/F   A/E  E 
+de todo meu cora - ção
 
+[Refrão]
+A/C#  D         C#      
+Na presença dos homens, 
+F#m7    B/D#      A/E    E    A9 A7 (A/B) 
+a ti cantarei lou - vo - o - res
 
-
-A/C#  D         C#      F#m7    B/D#      A/E    E    A9 A7 (A/B) 
-Na presença dos homens, a ti cantarei lou - vo - o - res
-A/C#  D         C#      F#m7    B/D#      A/E    E7    A9
-Na presença dos homens, a ti cantarei lou - vo - o - res
+A/C#  D         C#      
+Na presença dos homens,
+F#m7    B/D#      A/E    E7    A9
+a ti cantarei lou - vo - o - res
 
 [intro] A Asus2 Asus4 (2x)
 
 
 [verso 1]
-A7           E6            Bm7/D    Dm7/F   A/E  E 
-Eu te louvarei, Senhor, de todo meu cora - ção
-A           E/G#            D/F#     Dm/F   A/E  E 
-Eu te louvarei, Senhor, de todo meu cora - ção
+A           E/G#         
+Eu te louvarei, Senhor,
+  D/F#      Dm/F   A/E  E 
+de todo meu cora - ção
 
+A           E/G#         
+Eu te louvarei, Senhor,
+  D/F#      Dm/F   A/E  E 
+de todo meu cora - ção
+
+[Refrão]
 A/C#  D         C#sus4      F#m7    B/D#      A/E    E    A9 A7 (A/B) 
 Na presença dos anjos, a ti cantarei lou - vo - o - res
+F#m7    B/D#      A/E    E    A9 A7 (A/B) 
+cantarei lou - vo - o - res
 A/C#  D         C#      F#m7    B/D#      A/E    E7    A9
 Na presença dos anjos, a ti cantarei lou - vo - o - res
 

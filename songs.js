@@ -1,99 +1,85 @@
-const SONGS_DATA = [
-  { id:1, nome:"Eu te louvarei",interprete:"Ingrid ", tom:"A", bpm:72, cifra:`
+const ALL_SONGS = [  
+  { id:1, nome:"Eu te louvarei",intérprete:"Ingrid ", tom:"A", bpm:72, cifra:`
+
+TOM G
+
 [intro] A Asus2 Asus4 (2x)
 
-[verso 1]  
-A           E/G#         
-Eu te louvarei, Senhor,
-  D/F#      Dm/F   A/E  E 
-de todo meu cora - ção
+[verso 1]
+A           E/G#           D/F#      Dm/F  A/E  E 
+Eu te louvarei, Senhor, de todo meu cora - ção
+A           E/G#           D/F#      Dm/F   A/E  E 
+Eu te louvarei, Senhor, de todo meu cora - ção
 
-A           E/G#         
-Eu te louvarei, Senhor,
-  D/F#      Dm/F   A/E  E 
-de todo meu cora - ção
-
-[Refrão]
-A/C#  D         C#      
-Na presença dos homens, 
-F#m7    B/D#      A/E    E    A9 A7 (A/B) 
-a ti cantarei lou - vo - o - res
-
-A/C#  D         C#      
-Na presença dos homens,
-F#m7    B/D#      A/E    E7    A9
-a ti cantarei lou - vo - o - res
+A/C#  D         C#        F#m7     B/D#    A/E   E   A9 A7 (A/B) 
+Na presença dos homens, a ti cantarei lou - vo - o - res
+A/C#  D         C#        F#m7     B/D#    A/E   E   A9 
+Na presença dos homens, a ti cantarei lou - vo - o - res
 
 [intro] A Asus2 Asus4 (2x)
 
 
 [verso 1]
-A           E/G#         
-Eu te louvarei, Senhor,
-  D/F#      Dm/F   A/E  E 
-de todo meu cora - ção
+A7          E6             Bm7/D    Dm7/F   A/E  E 
+Eu te louvarei, Senhor, de todo meu cora - ção
+A           E/G#            D/F#     Dm/F   A/E  E 
+Eu te louvarei, Senhor, de todo meu cora - ção
 
-A           E/G#         
-Eu te louvarei, Senhor,
-  D/F#      Dm/F   A/E  E 
-de todo meu cora - ção
-
-[Refrão]
-A/C#  D         C#sus4      F#m7    B/D#      A/E    E    A9 A7 (A/B) 
+A/C#  D         C#sus4   F#m7    B/D#      A/E  E   A9 A7 (A/B) 
 Na presença dos anjos, a ti cantarei lou - vo - o - res
-F#m7    B/D#      A/E    E    A9 A7 (A/B) 
-cantarei lou - vo - o - res
-A/C#  D         C#      F#m7    B/D#      A/E    E7    A9
+A/C#  D         C#       F#m7     B/D#      A/E  E7  A9 A7 (A/B)
 Na presença dos anjos, a ti cantarei lou - vo - o - res
 
-A/C#  D         C#      F#m7    B/D#      A/E   E    A9 A7
+A/C#  D         C#        F#m7    B/D#     A/E   E    A9 A7
 Na presença dos homens, a ti cantarei lou - vo - o - res
-A/C#  D         C#      F#m7    B/D#      A/E    E7    Am/F Am/G A
+A/C#  D         C#m       F#m7    B/D#      A/E   E7    Am/F Am/G A9
 Na presença dos homenss, a ti cantarei lou - vo - o - res`},
 
-  { id:2, nome:"O homem Prudente",interprete:"Alan", tom:"A", bpm:69, cifra:`
+  { id:2, nome:"O homem Prudente",intérprete:"Alan", tom:"A", bpm:69, cifra:`
+
+T:G
 
 [Intro] F#m F#m/E F#m/D# G#º D C#
 
 [verso 1]
 F#m         Bm7    
 O homem que ouve
-E  D/F#  E/G#       A
+E  (D/F# E/G#) A
 A Palavra de Deus
-C#         F#m F#m/E
+C#       F#m F#m/E
 É como aquele que
-D               C#
+        D           C#
 Sobre a rocha, edificou
 
 [verso 2]
-F#m      Bm7
+F#m       Bm7
 Cairam as chuvas
-E7         A
+E7              A
 E o rio transbordou
-C#         F#m         F#m/A
+C#       F#m           F#m/A
 Soprou o vento, e enfureceu
-          D  
+         D  
 Mas, ele firme,
-       G#º   C#          F#m   (C#º F#)
+        G#º C#        F#m (C#º F#)
 Sobre a rocha, permaneceu
 
 [Refrão]
 Bm7          Bbaum/B D/B     
 E aquele que ouviu as
-E           A     C#       F#m
+E           A   C#          F#m
 Palavras de Deus, mas não viveu
-Bm7            D         
+        Bm7          D         
 Sobre a areia construiu,
-G#º   C#   F#m     (C#º F#)
+       G#º C#    F#m   (C#º F#)
 E sua vida destruiu
 
 Bm7          Bbaum/B D/B     
 E aquele que ouviu as
-E           A     C#       F#m
+E           A     C#        F#m
 Palavras de Deus, mas não viveu
-Bm7            D         
+Bm7                  D         
 Sobre a areia construiu,
-G#º   C#   F#m     
+      G#º  C#   F#m     
 E sua vida destruiu
 
 [ponte] Bm E7 A C# F#m / Bm E7 A C# 
@@ -101,86 +87,85 @@ E sua vida destruiu
 [verso 1]
 F#m         Bm7    
 O homem que ouve
-E  D/F#  E/G#       A
+E  (D/F# E/G#) A
 A Palavra de Deus
-C#         F#m F#m/E
+C#       F#m F#m/E
 É como aquele que
-D               C#
+        D           C#
 Sobre a rocha, edificou
 
 [verso 2]
-F#m      Bm7
+F#m       Bm7
 Cairam as chuvas
-E7         A
+E7              A
 E o rio transbordou
-C#         F#m         F#m/E
+C#       F#m           F#m/A
 Soprou o vento, e enfureceu
-          D  
+         D  
 Mas, ele firme,
-       G#º   C#          D Bm E F#m  
+        G#º  C#          D Bm E F#m  
 Sobre a rocha, permaneceu
   `},
 
-  { id:3, nome:"Olha o mar",interprete:"Alan", tom:"F#m", bpm:72, cifra:`
+  { id:3, nome:"Olha o mar",intérprete:"Alan", tom:"F#m", bpm:72, cifra:`
 
 [Intro] F#m C#m D E F#m  F#m C#m D E F#m
 
 [verso 1]
-     F#m                   C#m7
+       F#m             C#m7
 Olho o mar, imenso é o mar,
-    D                      A
+   D                      A
 O homem não consegue dominar
-          C#7        F#m7
+           C#7       F#m7
 Mas para o Senhor ele é
-        Bsus4                E 
+     Bsus4                  E 
 Como uma simples gota de orvalho
-  F#m7                  C#m7
+       F#m7           C#m7
 Olho o céu, infinito azul,
-D                        A
+   D                          A
 O homem não conhece os seus limites
-      C#7         F#m
+      C#7              F#m
 Mas o Senhor pode abrangê-lo
-        Bsus4               E      Fdim
+      Bsus4          E         (Fdim)
 Com um só relance de seu olhar
- F#m                             C#m           D E           F#m
+F#m                             C#m          D   E       F#m
 lara, lá, la, la, lêê, lara, lá, lá, la, là, neraná, lá, laralá.
 
 [Ponte] C#m D E F#m7 C#m7 D E 
 
 [Verso 2]  
-            F#m                     C#m7
+            F#m                    C#m7
 Olho para o sol,quando despontando vem
-         D      E         A
+         D       E      A
 Com sua luz aquecendo o dia
           C#7        F#m7
 Mas o seu brilho não tem
-     Bsus4                    D   (E C#)
+     Bsus4             D   (E C#)
 O fulgor da glória do meu Senhor
            F#m               C#m7
 Olho as estrelas, incontáveis são,
-    D        E    A
+  D        E      A
 Assim também o Senhor
-       C#7            F#m7
+    C#7              F#m7
 Tem bênçãos para ofertar,
-   Bsus4             E     Fdim 
+  Bsus4               E     Fdim 
 Àqueles que com fé o buscam.
- F#m                             C#m           D E           F#m
+F#m                             C#m           D E           F#m
 lara, lá, la, la, lêê, alara, lá, lá, la, là, neaná, ná, laralá
 
 C#m    D E F#m
 Ohooo leana na laralá 
 `
-
 },
 
-  { id:4, nome:"Segura na mão de Deus",interprete:"Alan", tom:"A", bpm:68, cifra:`
+  { id:4, nome:"Segura na mão de Deus",intérprete:"Alan", tom:"A", bpm:68, cifra:`
 
-[intro] D A7 B7 E
+[intro] D A7+ B7 E E7
 
 [Verso 1]
-        A             A7M     F#m/D          A
+      A               A7M     F#m/D        A
 Se as águas do mar da vida quiserem te afogar
-  A9      (E/G#) F#m      G9  D/F# E4 E 
+   A9     (E/G#) F#m    G9  D/F# E4 E 
 Segura na mão de Deus e vai!
         A             A7M     F#m/D          A/C#
 Se as tristezas desta vida quiserem te sufocar
@@ -192,9 +177,9 @@ Segura na mão de Deus e vai!
 Segura na mão de Deus, segura na mão de Deus
      A(E/G#)F#m              B D/E E
 Pois ela, ela te sustentará
-     A              A7           D/F#          A
+     A              A7           D/F#      A
 Não temas, segue adiante e não olhes para trás
-   A (F#m)       Bm D/E  A
+       A (F#m)       Bm D/E  A
 Mas segura na mão de Deus e vai!
   D         A      E
 (Na mão de Deus)
@@ -204,7 +189,7 @@ Mas segura na mão de Deus e vai!
 Se a jornada é pesada e te cansas da caminhada
   A9      (E/G#) F#m      G9  D/F# E4 E 
 Segura na mão de Deus e vai!
-  A            A7         D/F#             A
+  A         A7         D/F#             A
 Orando, jejuando, confiando e confessando
    A      (E/G#) F#m    B  D/E E
 Segura na mão de Deus e vai!
@@ -224,7 +209,7 @@ Segura na mão de Deus e vai!
 [Verso 3]
   A7M            A7         D/F#             A
 O Espírito do Senhor sempre te revestirá
-  A9      (E/G#) F#m      G9  D/F# E4 E 
+  A9      (E/G#) F#m    G9  D/F# E4 E 
 Segura na mão de Deus e vai!
   A            A7         D/F#             A
 Jesus Cristo prometeu que jamais te deixará
@@ -240,24 +225,24 @@ Pois ela, ela te sustentará
 Não temas, segue adiante e não olhes para trás
    A (F#m)       Bm D/E  A
 Segura na mão de Deus e vai!
-  D         A      E
+  D Dm         A      E
 (Na mão de Deus)
 !`},
 
-  { id:5, nome:"Portas Abertas",interprete:" ", tom:"F#", bpm:72, cifra:`
+  { id:5, nome:"Portas Abertas",intérprete:" ", tom:"F#", bpm:72, cifra:`
 
 [intro]  D/E  E/F#  E7(4)  E7/G#  E7(4)/G  E7(4)/G# 
 
 [Verso 1]
 A                C#/F                F#m7 (E/F# A#°)
 Ontem deixou sua casa e saiu pelo mundo
-Bm7              G7M            E (D/F# F°)
+Bm7              G7M                E (D/F# F°)
 De coração lá no fundo eu não entendi
-F#m        F#m7M           F#m7                   
+F#m            F#m7M           F#m7                   
 Tudo o que fiz, o que ele quis, meus braços abertos 
    F#m6
 ficaram
-   A               D/A     A        D/A      Bm7       
+   A           D/A         A        D/A      Bm7       
 E ainda estão assim,    e vão continuar,     até um dia
 Bm7/A         E (E7(4)A/E)
  vê-lo regressar
@@ -266,19 +251,19 @@ A                     C#/F                F#m7 (E/F# A#°)
 Posso pensar no que o mundo lhe tem preparado
 Bm7                 G7M            E/G# (D/F# F°)
 Sei provações tem passado e tudo por quê?
-F#m            F#m7M      F#m7                F#m6   A  
+F#m            F#m7M      F#m7                F#m6     
 Falsos amigos por aí, conselhos vazios, mais cheios     
-         D/A
+A          D/A
 de palavras vãs
- A             D/A    Bm7         Bm7/A     E7
+      A      D/A      Bm7         Bm7/A     E7
 Que grande ilusão, mentiram ao seu jovem coração
 
 [Refrão]
-           A Bm    A/C#  D7M(9)    E/D     C#m7    F#m7   
+           A Bm    A/C#  D7M(9)    E/D     C#m7      F#m7   
 Mas...     nunca    é   tarde não, sai da escuridão, há um
-     Bm7 E7(4) E  A
+      Bm7  E7(4) E  A
  novo dia, nova manhã
-A    Bm  A/C#   D7M(9)   E/D       C#m7   F#m7      Bm7  
+A    Bm  A/C#    D7M(9)   E/D     C#m7    F#m7    Bm7  
 A    mes - ma    casa tem portas abertas, pessoas certas,
 E       D   A
  amigos e irmãos
@@ -299,6 +284,7 @@ A                 D/A       A          D/A      Bm7
 Pai, eu sei que errei, mas vim para acertar, permita-me 
   Bm7/A         E (E7(4)A/E)
 de novo aqui ficar
+
 A                   C#/F            F#m7 (E/F# A#°)
 Pai só lamento que onde passei via muitos
 Bm7                 G7M                  E/G# (D/F# F°)
@@ -310,16 +296,16 @@ Para um renascer, um novo proceder, na mais perfeita e
 Bm7/A    E7
  bela comunhão
 
-           A Bm    A/C#  D7M(9)    E/D     C#m7    F#m7   
+           A Bm    A/C#  D7M(9)    E/D     C#m7     F#m7   
 Mas...     nunca    é   tarde não, sai da escuridão, há um
-     Bm7 E7(4) E  A
+      Bm7  E7(4) E  A
  novo dia, nova manhã
-A    Bm  A/C#   D7M(9)   E/D       C#m7   F#m7      Bm7  
+A    Bm  A/C#   D7M(9)   E/D     C#m7     F#m7    Bm7  
 A    mes - ma    casa tem portas abertas, pessoas certas,
 E       D   A
  amigos e irmãos`},
 
-  { id:6, nome:"Compromisso",interprete:"Alan", tom:"A", bpm:72, cifra:`
+  { id:6, nome:"Compromisso",intérprete:"Alan", tom:"A", bpm:72, cifra:`
 
 [Intro] A9  A7M  D  D7M  Dm6
         A7M  A9  A7M  D7M  Dm6
@@ -342,7 +328,7 @@ Tudo foi criado por ti
  D/E      E/D         C#m7
 Nós também pra teu louvor
 
-F#m7          F#m/D  D#m7(5-)
+F#m7          F#m/E  D#m7(5-)
 Quero sempre te exaltar
         Bm       A/C#
 Pois és fiel a mim
@@ -362,7 +348,7 @@ Do teu amor, Jesus
 
 D7M                  E/D
 Bom é estar te servindo
-C#m7            F#m7  F#m/D
+C#m7         Fdim   F#m7  F#m/D
 Com compromisso contigo
 
 Bm7(9)         Bm7
@@ -395,7 +381,7 @@ Pois és fiel a mim
        D/E      G/A   A/C#
 Pois és fiel a mim
 
-[Refrão] 2X
+[Refrão] 
  D7M                E/D
 Bom é estar te servindo
 C#m7            F#m7  F#m/D
@@ -416,9 +402,9 @@ Nada vai nos separar
 D/E      E          A9  A7M
 Do teu amor, Jesus  
 
-[Final] D  D7M  Dm6  A7M  A9  A7M  E/F# F#/G#B9`},
+[Final] D  D7M  Dm6  A7M`},
 
-  { id:7, nome:"Carvalhos de Justiça",interprete:"Coral", tom:"C", bpm:118, cifra:`
+  { id:7, nome:"Carvalhos de Justiça",intérprete:"Coral", tom:"C", bpm:118, cifra:`
 
 [Intro] Bm7  A7M  Bm7  A7M 
 
@@ -427,61 +413,63 @@ Do teu amor, Jesus
 O espírito do Senhor Deus está sobre mim, porque o Senhor me ungiu
              F#m7
 A pregar boa nova aos quebrantados
-      Bm7                           A7+        
+      Bm7                           A7M        
 E enviou-me a curar os quebrantados de coração
 
 
 Bm7                   A7M        Bm7                      F#m7
 E a livrar todos os cativos, e a pôr em liberdade todos os
-          Fm7(b5) F#m7A#º A7M  Bm7
+          
 Algemados
 Bm7                  A7M                     
 E apregoar o ano aceitável do Senhor
-   Bm7                      A7M
+   Bm7             D         A7M
 E o dia da vingança do nosso Deus
 
 [Refrão]
 D7M                       C#m7   Cº  Bm7
   A consolar todos os que choram
-                          A7M              Bm7 C#m7 D7M
+              E         A7M             C#º/A Bm7 C#m7 D7M
 E a pôr sobre os que em sião de luto estão
                       C#m7     Bm7
 Uma coroa ao invés de cinzas
-                            A7M(9) Bm7 C#m7 D7M
+           E                A7M(9) Bm7 C#m7 D7M
 Óleo de alegria ao invés de pranto
-                                C#m7
+                 E/D               C#m7    F#m7
 Vestes de louvor ao invés de espírito angustiado
-         Bm7                     E4/7                       
+         Bm7    Esus4/C#         D    Dm7                       
 A fim de que se chamem, a fim de que se chamem
-               A7M
+               A7M   F#m7
 Carvalhos de justiça
             Bm7                        A7M  Bm7  C#m7 D7M
 Plantados pelo Senhor, carvalhos de justiça
 
 [Refrão]
-                        C#m7   Cº  Bm7
-A consolar todos os que choram
-                          A7M              Bm7 C#m7 D7M
+D7M                       C#m7   Cº  Bm7
+  A consolar todos os que choram
+              E         A7M             C#º/A Bm7 C#m7 D7M
 E a pôr sobre os que em sião de luto estão
-                      C#m7      Bm7
+                      C#m7     Bm7
 Uma coroa ao invés de cinzas
-                            A7M    Bm7  C#m7 D7M
+           E                A7M(9) Bm7 C#m7 D7M
 Óleo de alegria ao invés de pranto
-                                C#m7
+                 E/D               C#m7    F#m7
 Vestes de louvor ao invés de espírito angustiado
-         Bm7                     E4/7                         
+         Bm7    Esus4/C#         D    Dm7                       
 A fim de que se chamem, a fim de que se chamem
-                A7M
+               A7M   F#m7
 Carvalhos de justiça
-            Bm7                        A7M            
+            Bm7    E                    A7M  F#m7
 Plantados pelo Senhor, carvalhos de justiça
-            Bm7                    A7M               
+            Bm7    E                    A7M  F#m7          
+Plantados pelo Senhor, carvalhos de justiça
+            Bm7    E               A7M               
 Plantados pelo Senhor,  Para a Sua glória
 
 [Final] Bm7  A7M  Bm7  A7M
         Bm7  A7M  Bm7  A7M`},
 
-  { id:8, nome:"Teus Altares",interprete:"Tainá", tom:"D", bpm:62, cifra:`
+  { id:8, nome:"Teus Altares",intérprete:"Tainá", tom:"D", bpm:62, cifra:`
 
 [Intro] A  Bm7  A  D  A  Bm7  E
 
@@ -573,7 +561,7 @@ A                     G/A
 
 [Final] A  D  A  D  A`},
 
-  { id:9, nome:"Quem sou eu",interprete:" ", tom:"A", bpm:60, cifra:`
+  { id:9, nome:"Quem sou eu",intérprete:" ", tom:"A", bpm:60, cifra:`
 
   A                 A°              Bm  Em6/F# F#5+
 Quem sou eu pra merecer tão puro amor
@@ -602,7 +590,7 @@ Quem sou eu pra clamar e ser ouvido
  Em/A          A   D      E/D     E            A
 E através do meu gemido Mover a mão de um Rei Senhor
 `},
-  { id:10, nome:"A Busca",interprete:" ", tom:"A", bpm:59, cifra:`[Intro] A
+  { id:10, nome:"A Busca",intérprete:" ", tom:"A", bpm:59, cifra:`[Intro] A
 
 A                  A7M
 Busquei a razão de viver, nos caminhos que
@@ -653,7 +641,7 @@ A qualquer lugar, pra sempre ao Teu lado
 Quero estar
 
 [Final] A  D  A`}, 
-  { id:11, nome:"Não Há Barreiras",interprete:"Alan", tom:"A", bpm:68, cifra:`
+  { id:11, nome:"Não Há Barreiras",intérprete:"Alan", tom:"A", bpm:68, cifra:`
 
 [Intro]  A F#m D E (2X)
 
@@ -718,7 +706,7 @@ As mais altas barreiras tu irás transpor
    Bm  A/C# D E
 Transpor`},
 
-  { id:12, nome:"Nenhuma Condenação Há",interprete:"Tainá", tom:"A", bpm:55, cifra:`
+  { id:12, nome:"Nenhuma Condenação Há",intérprete:"Tainá", tom:"A", bpm:55, cifra:`
 
 [Intro] A2  F#m  D  E
         A2  F#m  D  E4  E
@@ -867,7 +855,7 @@ Para quem está em Ti, querido Senhor
          A2
 Querido Senhor`},
 
-{ id:13, nome:"Guarda de Israel",interprete:" ", tom:"F#m", bpm:50, cifra:` 
+{ id:13, nome:"Guarda de Israel",intérprete:" ", tom:"F#m", bpm:50, cifra:` 
 [Intro]
 
 [Verso 1]
@@ -904,91 +892,73 @@ Ele guarda minha entrada e a minha saída
             C#7      F#m9
 Desde agora e para sempre`},
 
-{ id:14, nome:"In Memorian",interprete:"Coral", tom:"A", bpm:102, cifra:`
+{ id:14, nome:"In Memorian",intérprete:"Coral", tom:"A", bpm:102, cifra:`[Intro] D 
 
-[Intro] D  A  F#m
-        Bm  E7  A
-
-               A ( D  A )
+              A
 Sempre vou lembrar da coragem, do amor
-                                 D   ( D4  D )
+                                 D
 Da firmeza e vontade, da fé e devoção
-                                          A
-Da igreja do tempo de Paulo, de Pedro e João
-         D
+    D
+Da igreja do tempo de Paulo, de Pedro e
+ A
+João
+          D
 Que enfrentaram a fúria de Roma
-                                  A  F#m
+                                F#m
 Mas nunca negaram sua fé de cristãos
-                  Bm  E               A   ( D )
-É um exemplo pra mim,   verdadeira lição
+                  Bm     E              A
+É um exemplo pra mim,       verdadeira lição
 
-           A ( D  A )               
+( Em7  A7 )
+
+D                                  A/C#
+Oh, meu Deus, reaviva tua igreja de novo
+      F#m              Bm
+Faz a chama arder nesse povo
+    E                  A
+Como eram os primeiros cristãos
+D                                A/C#
+Oh, meu Deus, reaviva tua igreja de novo
+      F#m              Bm
+Faz a chama arder nesse povo
+D            E      D
+Começando em meu coração
+
+ ( D )
+
+          A
 Eu queria ver a bravura dos santos em plena arena
-                 D  ( D4  D )
+               D
 Enfrentando os leões
 
 Quanto mais a fogueira queimava
-                                     A
-Mais se ouvia o louvor dos nossos irmãos
-         D
+                               A
+Se ouvia o louvor dos nossos irmãos
+      D
 Sob o sangue, tombavam nas ruas
-                                    A   F#m
+                                  F#m
 Chegavam no céu com a vitória nas mãos
-                  Bm  E             A    ( A7 )
+              Bm    E               D   A
 É um exemplo pra mim,   verdadeira lição
 
-D                                    A
+( A )
+
+D                                  A/C#
 Oh, meu Deus, reaviva tua igreja de novo
-      F#m                Bm
+      F#m              Bm
 Faz a chama arder nesse povo
-      E7                     A   ( A7 )
-Como foram os primeiros cristãos
-D                                   A
+    E                     A
+Como eram os primeiros cristãos
+D                                A/C#
 Oh, meu Deus, reaviva tua igreja de novo
-      F#m                Bm
+      F#m              Bm
 Faz a chama arder nesse povo
-D            E       A  ( G  A )
+    D        E      D
 Começando em meu coração
 
- ( D  A  F#m )
- ( Bm  E7  A )
+[Final] A  A9  A  Bm  A/C#  D `},
 
-           A ( D  A )              
-Eu queria ver a bravura dos santos em plena arena
-                 D  ( D4  D )
-Enfrentando os leões
-
-Quanto mais a fogueira queimava
-                                     A
-Mais se ouvia o louvor dos nossos irmãos
-         D
-Sob o sangue, tombavam nas ruas
-                                    A   F#m
-Chegavam no céu com a vitória nas mãos
-                  Bm  E             A    ( A7 )
-É um exemplo pra mim,   verdadeira lição
-
-D                                    A
-Oh, meu Deus, reaviva tua igreja de novo
-      F#m                Bm
-Faz a chama arder nesse povo
-      E7                     A   ( A7 )
-Como foram os primeiros cristãos
-D                                   A
-Oh, meu Deus, reaviva tua igreja de novo
-      F#m                Bm
-Faz a chama arder nesse povo
-D            E       A  ( G  A )
-Começando em meu coração
-
-( D )                                   ( A )
-Oh, meu Deus, reaviva tua igreja de novo
-       (F#m             ( Bm )
-Faz a chama arder nesse povo
-D            E       D   ( D#m A  D  A )
-Começando em meu coração`},
-
-{ id:15, nome:"Meu Coração é o Teu Altar",interprete:"Pr. Diogo", tom:"A", bpm:65, cifra:`
+{ id:15, nome:"Meu Coração é o Teu Altar",intérprete:"Pr. Diogo", tom:"A", bpm:65, cifra:`
 
 [Intro] A  C#m F#m E
         D  C#m E 
@@ -1014,7 +984,7 @@ Nós somos todos parte de ti
           A   E     A
 Nosso coração é o teu altar
 
-   E        A C#mF#m
+   E        A C#m F#m
 Queremos te a_do_rar
    E     D  D#m7(5-) E
 Queremos te lou______var
@@ -1087,7 +1057,7 @@ Em todo lugar se ouvirá
          Bm  E   A
 Espírito amado, vem!`},
 
-{ id:16, nome:"O Amigo",interprete:"Ingrid", tom:"A", bpm:64, cifra:`
+{ id:16, nome:"O Amigo",intérprete:"Ingrid", tom:"A", bpm:64, cifra:`
 
 [Intro] D  A  F#m B7  E
 
@@ -1164,7 +1134,7 @@ A própria vida renunciou?
     A
 Meu amigo`},
 
-{ id:17, nome:"Vem me Tocar",interprete:"Vitória", tom:"A", bpm:62, cifra:`
+{ id:17, nome:"Vem me Tocar",intérprete:"Vitória", tom:"A", bpm:62, cifra:`
 
 [Intro] A  F#m D  C#m  E  C#m
 
@@ -1203,7 +1173,7 @@ Eu te cantarei louvores até Jesus voltar
 [Final] F#m E  D  E 
         F#m E  D  E `},
 
-{ id:18, nome:"Tudo é perda",interprete:" ", tom:"A", bpm:64, cifra:`[Intro] A  F#m7 E  D7M(2)/A
+{ id:18, nome:"Tudo é perda",intérprete:" ", tom:"A", bpm:64, cifra:`[Intro] A  F#m7 E  D7M(2)/A
 
 [Verso 1]
 
@@ -1359,7 +1329,7 @@ Só Tua presença é o que me basta
            A/C#            D7M(2)/A
 Eu Te levarei por onde eu for`},
 
-{ id:19, nome:"Sacrifício",interprete:"Tainá", tom:"A", bpm:65, cifra:`
+{ id:19, nome:"Sacrifício",intérprete:"Tainá", tom:"A", bpm:65, cifra:`
 
 [Intro] F#m C#m/E  D7M  C#4  C#
 
@@ -1485,17 +1455,17 @@ Entrego mente, corpo e alma
                  F#m
 Até o meu último ar`},
 
-{ id:20, nome:"Nosso Deus é Soberano",interprete:"Vitória", tom:"A", bpm:72, cifra:`
+{ id:20, nome:"Nosso Deus é Soberano",intérprete:"Vitória", tom:"A", bpm:72, cifra:`
 
 [Intro] A  D  A  D
 
-           A    E/A
+           A    E/G#
 Nosso Deus é sobera--------no
-     D                     E7(4)
+     D/F#                     E7(4)
 Ele reina antes da fundação do mundo
-      A         D/G#
+      A         A/C#
 Nosso Deus é sobera--------no
-     D                      E7(4)
+     D9 Bm                      E7(4)
 Ele reina antes da fundação do mundo
 
    F#m                     E/G#
@@ -1517,21 +1487,21 @@ E criou a natureza
            E4
 E formou o homem
 
-         Bm7(9)             A/C#
+         A             A/C#
 Glória a Deus por suas maravilhas
-             D
+             D Bm7
+Pelas suas grandezas
+         E4   (D/F# E/G#)
+Glória a Deus
+
+         A             A/C#
+Glória a Deus por suas maravilhas
+             D Bm7
 Pelas suas grandezas
          E4
 Glória a Deus
 
-         Bm7(9)             A/C#
-Glória a Deus por suas maravilhas
-             D
-Pelas suas grandezas
-         E4
-Glória a Deus
-
-( A  D  A  D )
+( G D/F# E - D A/C# E Fdim)
 
    F#m                     E/G#
 A terra era sem forma e vazia
@@ -1552,37 +1522,16 @@ E criou a natureza
            E4
 E formou o homem
 
-         Bm7(9)             A/C#
+         A             A/C#
 Glória a Deus por suas maravilhas
-             D
+             D Bm7
 Pelas suas grandezas
-         E4
+         E4   (D/F# E/G#)
 Glória a Deus
 
-         Bm7(9)             A/C#
+         A             A/C#
 Glória a Deus por suas maravilhas
-             D
-Pelas suas grandezas
-         E4
-Glória a Deus
-
-Oh
-
-( F#m7 A  E )
-( F#m A  E )
-( F#m7 A  E )
-( F#m A  E )
-
-         Bm7(9)             A/C#
-Glória a Deus por suas maravilhas
-             D
-Pelas suas grandezas
-         E4
-Glória a Deus
-
-         Bm7(9)             A/C#
-Glória a Deus por suas maravilhas
-             D
+             D Bm7 (Bm7/A)
 Pelas suas grandezas
          E4
 Glória a Deus
@@ -1591,10 +1540,10 @@ Glória a Deus
 Glória a Deus
          A   D
 Glória a Deus
-         D
+         A   D
 Glória a Deus`},
 
-{ id:21, nome:"Tu és Fiel Senhor",interprete:"Vitória", tom:"A", bpm:118, cifra:`
+{ id:21, nome:"Tu és Fiel Senhor",intérprete:"Vitória", tom:"A", bpm:118, cifra:`
 
 A       Bm           E7       A
 Tu és fiel, Senhor, meu Pai celeste
@@ -1623,6 +1572,15 @@ Tudo criaste na terra e nos ares
 B7         A        Bm  E6 E   A
 Todo o Universo vem pois te   louvar!
 
+E/D E      A       F#      Bm
+Tu    és fiel, Senhor! Tu és fiel, Senhor!
+E        A        B     B7   E
+Dia após dia, com bênçãos sem fim
+E       A        A4 A/C#   D6/B
+Tua mercê me sustenta e me guarda
+B7       A         Bm  E6 E   A
+Tu és fiel, Senhor, fiel  a      mim
+
 A       Bm          E7       A
 Pleno perdão tu dás: paz, segurança
 D       A A4 A  B       E
@@ -1630,9 +1588,19 @@ Cada momento me  guias, Senhor
 E E9     A      A4 A      D6/B
 E, no porvir, oh! que doce esperança
 B7       A    Bm     E    A
-Desfrutarei do teu rico favor!`},
+Desfrutarei do teu rico favor!
 
-{ id:22, nome:"Maior Desejo",interprete:"Alan", tom:"A", bpm:60, cifra:`
+E/D E      A       F#      Bm
+Tu    és fiel, Senhor! Tu és fiel, Senhor!
+E        A        B     B7   E
+Dia após dia, com bênçãos sem fim
+E       A        A4 A/C#   D6/B
+Tua mercê me sustenta e me guarda
+B7       A         Bm  E6 E   A
+Tu és fiel, Senhor, fiel  a      mim
+`},
+
+{ id:22, nome:"Maior Desejo",intérprete:"Alan", tom:"A", bpm:60, cifra:`
 
 A         E/G#       F#m   F#/A#
 Mais que o ar que eu respiro
@@ -1672,57 +1640,62 @@ Troca Senhor meu coração
                F#m
 Que é velho por um novo`},
 
-{ id:23, nome:"Tocou-me",interprete:"Alan", tom:"A", bpm:65, cifra:`
+{ id:23, nome:"Tocou-me",intérprete:"Alan", tom:"A", bpm:65, cifra:`
 
-[Intro] Em  A  F#m B4  B
-        Em  A  D  G  F#m
+[Intro] 
 
-A        G/A   D
+[Verso 1]
+E  D9/F#  E5/G#   A
 Algemado por um peso
-A              G/A  D       D/F#
+E              D/F# E/G# A A7
 Oh, quão triste eu andei
-G           A/G   F#m      Bm9/7
+D           E/D     C#m7 F#m7
 Até sentir a mão de Cristo
-Em             A        D
+Bm7            D/E        A  (A E/G# F#m7)
 Não fui mais o mesmo eu sei
 
-  A         G/A     D        D/F#
+[Refrão]
+  E         D9/F#  E9/G#   A9  (A Bm C#m)
 Tocou me, Jesus, tocou me
-   G        F#m          Em   A
+   D9        A/C#         B E
 De paz ele encheu meu coração
-D          C     D/A      G/B  Em D/F#
+A          Bm   A/C#     D       F#m/D#
 Quando o Senhor Jesus me tocou
-   Bm     Em   F#mBm  A    G
+   A/E    D/E      A   (A E/G# F#m7)
 Livrou me da escuridão
 
-A             G/A  D
+[Verso 2]
+E  D9/F#  E5/G#   A
 Desde que aceitei a Cristo
-A           G/A   D     D/E
+E              D/F# E/G# A A7
 E senti seu terno amor
-G        A/G   F#m        Bm7/9
+D           E/D     C#m7 F#m7
 Eu tenho achado paz e vida
-    Em          A      D
+Bm7            D/E        A  (A E/G# F#m7)
 Pra sempre cantarei do seu amor
-A           G/A    D     D/F#
+
+[Refrão]
+  E         D9/F#  E9/G#   A9  (A Bm C#m)
 Tocou me, Jesus, tocou me
-    G       F#m          Em     A
-De paz Ele encheu meu coração
-D          C     D/A      G/B    Em D/F#
+   D9        A/C#         Bm E
+De paz ele encheu meu coração
+A          G/A    F#m/A      F#m/D#
 Quando o Senhor Jesus me tocou
-   Bm     Em   F#mBm A  G
+   A/E    D/E      A   (A E/G# F#m7)
 Livrou me da escuridão
 
-  A         G/A     D        D/F#
+[Refrão]
+  E         D9/F#  E9/G#   A9  (A Bm C#m)
 Tocou me, Jesus, tocou me
-   G        F#m          Em   A
+   D9        A/C#         Bm E
 De paz ele encheu meu coração
-D          C     D/A      G/B  Em D/F#
+A          G/A    F#m/A      F#m/D#
 Quando o Senhor Jesus me tocou
-   Bm     Em   F#m Bm  A    G
+   A/E    D/E      A   (A E/G# F#m7)
 Livrou me da escuridão
 `},
 
-{ id:24, nome:"Santíssimo",interprete:"Alan", tom:"A", bpm:62
+{ id:24, nome:"Santíssimo",intérprete:"Alan", tom:"A", bpm:62
   , cifra:`
 
 D               A
@@ -1768,7 +1741,7 @@ Bm7
 E
 Senhor Te bendizer`},
 
-{ id:25, nome:"Mensagem da Cruz",interprete:"Tainá ", tom:"A", bpm:00, cifra:`
+{ id:25, nome:"Mensagem da Cruz",intérprete:"Tainá ", tom:"A", bpm:00, cifra:`
 
 [Intro] A  A7  D 
         A  E  A  E
@@ -1876,7 +1849,7 @@ Té por uma coroa trocar
 [Final] A  A7  D 
         A  E  A  `},
 
-{ id:26, nome:"Porque Ele Vive",interprete:" ", tom:"A", bpm:108, cifra:`
+{ id:26, nome:"Porque Ele Vive",intérprete:" ", tom:"A", bpm:108, cifra:`
 
 [Intro] A9  D (2x)
         
@@ -1985,7 +1958,7 @@ Bm    A/C#   F#m           E/G#
 Que vivo está
 `},
 
-{ id:27, nome:"Salmos 23",interprete:"Vitória", tom:"A", bpm:62, cifra:`
+{ id:27, nome:"Salmos 23",intérprete:"Vitória", tom:"A", bpm:62, cifra:`
 
 A                  C#m
 O Senhor é o meu pastor
@@ -2030,7 +2003,7 @@ E para sempre
          C#m       E        F#m
 E para sempre com Ele habitarei`},
 
-{ id:28, nome:"Chame a Deus",interprete:"Alan", tom:"A", bpm:64, cifra:`
+{ id:28, nome:"Chame a Deus",intérprete:"Alan", tom:"A", bpm:64, cifra:`
 
 [Intro] A9  F#m  D  E  A9
 
@@ -2086,7 +2059,7 @@ Chame a Deus, chame a Deus
  E      A   F#m         D    E   A
 Chame a Deus   Chame a Deus`},
 
-{ id:29, nome:"Abrigo de Deus",interprete:"Alan", tom:"F#m", bpm:60, cifra:`
+{ id:29, nome:"Abrigo de Deus",intérprete:"Alan", tom:"F#m", bpm:60, cifra:`
 
 [Intro] F#m7 Bm7  A  D7M  A  C#m
 
@@ -2139,7 +2112,7 @@ E pra sempre seu nome exaltar
 
 ( F#m/E D  Bm  F# )`},
 
-{ id:30, nome:"Encanto",interprete:"Dueto Alan/Ingrid", tom:"A", bpm:64, cifra:`
+{ id:30, nome:"Encanto",intérprete:"Dueto Alan/Ingrid", tom:"A", bpm:64, cifra:`
 
 A               C#m/E      F#m        A7             D 
 São tantos os momentos, em que a Tua voz eu posso ouvir 
@@ -2168,7 +2141,7 @@ Somente a Ti eu sei louvar
 F#          C#/F    B  C#    A#m       D#m B  C#/F  F# 
 A Ti minha vida vou confiar, Cristo meu Cristo   Sen__hor`},
 
-{ id:31, nome:"Espírito Santo",interprete:"Tainá", tom:"A", bpm:62, cifra:`
+{ id:31, nome:"Espírito Santo",intérprete:"Tainá", tom:"A", bpm:62, cifra:`
 
 A               F#m            A    F#m 
 O Espírito Santo é a tranqüilidade
@@ -2206,7 +2179,7 @@ Espírito Santo eu estou aqui
 [Final] F#m  Bm  E  C#m  F#m
         Bm  E  A  E  A`},
 
-{ id:32, nome:"Salmo 19",interprete:" ", tom:"A", bpm:64, cifra:`
+{ id:32, nome:"Salmo 19",intérprete:" ", tom:"A", bpm:64, cifra:`
 
 A9          Bm7           D/E
 A lei do Senhor é perfeita
@@ -2250,7 +2223,7 @@ São mais desejáveis do que o ouro depura--do
                      Bm7           D/E       Dm7  A9
 São mais doces que o mel e o destilar dos favos`},
 
-{ id:33, nome:"Começa Comigo",interprete:" ", tom:"A", bpm:64, cifra:`
+{ id:33, nome:"Começa Comigo",intérprete:" ", tom:"A", bpm:64, cifra:`
 
 Bm7            E7      C#m
 Começa comigo a obra que queres fazer
@@ -2295,7 +2268,7 @@ Pra que eu possa trazer muitas vidas
  A   E/G#A
 A Teus pés, ó meu Senhor Jesus`},
 
-{ id:34, nome:"Faz Um Milagre em mim",interprete:"Alan", tom:"A", bpm:68, cifra:`
+{ id:34, nome:"Faz Um Milagre em mim",intérprete:"Alan", tom:"A", bpm:68, cifra:`
 
 [Intro] D7M  C#m7 F#m7(9) 
         D7M  C#m7 F#m7(9)
@@ -2432,7 +2405,7 @@ Faz um milagre em mim
 
 [Final] E/G#  D/F# Dm/F  A`},
 
-{ id:35, nome:"Salmos 126",interprete:"Ingrid", tom:"A#", bpm:58, cifra:`
+{ id:35, nome:"Salmos 126",intérprete:"Ingrid", tom:"A#", bpm:58, cifra:`
 
 F#m
 Como quem sonha
@@ -2507,7 +2480,7 @@ E se alegrará em tudo
         F#m
 O que Deus fez`},
 
-{ id:36, nome:"Pela Manhã Te Buscarei",interprete:"Vitória", tom:"A", bpm:65, cifra:`
+{ id:36, nome:"Pela Manhã Te Buscarei",intérprete:"Vitória", tom:"A", bpm:65, cifra:`
 
 [Intro] F#m7  A  E/G#  E  D/F#  A  E/G#
 
@@ -2566,7 +2539,7 @@ Pois tua destra me tem sustentado
 
 [Final] D7M  F#m  E  D7M  F#m  E  A`},
 
-{ id:37, nome:"Aos Pés da Cruz",interprete:"Alan", tom:"A", bpm:62, cifra:`
+{ id:37, nome:"Aos Pés da Cruz",intérprete:"Alan", tom:"A", bpm:62, cifra:`
 
 [Intro] A9  E/G#  F#m7  
         D7M  E7(4/9)
@@ -2694,7 +2667,7 @@ Misericórdia, graça e luz
 D#7M       F7(4/9)         A#2
     Misericórdia, graça e luz`},
 
-{ id:38, nome:"Quando o Vento Soprar",interprete:"Coral", tom:"A", bpm:68, cifra:`
+{ id:38, nome:"Quando o Vento Soprar",intérprete:"Coral", tom:"A", bpm:68, cifra:`
 
 [Intro]  A/D  C#m7  Bm7  D/E  Eb7(11+)
          A/D  C#m7  Bm7  D/E  E7(9)
@@ -2732,7 +2705,7 @@ Tudo volta ao lugar quando o vento soprar
 D/E        A9     E9/G#         F#m7 F#m/E
    Sopra Espírito,     trazendo vida`},
 
-{ id:39, nome:"Se eu não Te ouvir",interprete:"Tainá", tom:"A", bpm:67, cifra:`
+{ id:39, nome:"Se eu não Te ouvir",intérprete:"Tainá", tom:"A", bpm:67, cifra:`
 
 [Intro] A  D/A  A  E/A  D/A  
 
@@ -2842,7 +2815,7 @@ No começo, meio e fim
 Tua voz é tudo
 `},
 
-{ id:40, nome:"Novo Tempo",interprete:"Tainá", tom:"A", bpm:72, cifra:`
+{ id:40, nome:"Novo Tempo",intérprete:"Tainá", tom:"A", bpm:72, cifra:`
 [Intro] A
 
 F#m
@@ -2942,7 +2915,7 @@ Oh OH OH OH OH Um novo tempo
 A                E          A
 Oh OH OH OH OH Um novo tempo`},
 
-{ id:41, nome:"Nem Cravos Nem a Cruz",interprete:"Alan & Tainá", tom:"A", bpm:65, cifra:`
+{ id:41, nome:"Nem Cravos Nem a Cruz",intérprete:"Alan & Tainá", tom:"A", bpm:65, cifra:`
 [Intro] F#m D  E7  A  C#7
         F#m D  E7  D
         G#° C#7 F#m
@@ -2979,7 +2952,7 @@ Pra que contigo eu seja um irmão
 [Final] F#m D  E  A  C#7
         F#m D  E7  A  C#7`},
 
-{ id:42, nome:"Estou Aqui",interprete:"Alan", tom:"A", bpm:68, cifra:`
+{ id:42, nome:"Estou Aqui",intérprete:"Alan", tom:"A", bpm:68, cifra:`
 
 A
 Estou aqui
@@ -3052,7 +3025,7 @@ Você é a verdade é tudo é o caminho, a vida
    E7                      D     A
 Só você eu sei é a solução`},
 
-{ id:43, nome:"A Ele a Glória",interprete:"Coral", tom:"A", bpm:60, cifra:`
+{ id:43, nome:"A Ele a Glória",intérprete:"Coral", tom:"A", bpm:60, cifra:`
 
 [Intro] F#m D  E9(11)
         F#m D  E9(11)
@@ -3141,7 +3114,7 @@ Ele a Glória, pra sempre amém
 [Final] F#m7 F#7(4/9)  
         F#m F#m7 F#7(4/9) F#m`},
 
-{ id:44, nome:"Conversão",interprete:" ", tom:"A", bpm:62, cifra:`
+{ id:44, nome:"Conversão",intérprete:" ", tom:"A", bpm:62, cifra:`
 
 [Intro] D  A  F#m  
         Bm  E  A  E
@@ -3226,7 +3199,7 @@ Foi ali, pela fé, que os olhos abri
     Bm       E            A  D  A
 E agora me alegro em sua Luz`},
 
-{ id:45, nome:"Futura Escuridão",interprete:"?", tom:"A", bpm:70, cifra:`
+{ id:45, nome:"Futura Escuridão",intérprete:"?", tom:"A", bpm:70, cifra:`
 
 [Intro] F#m E  D
         E  F#m
@@ -3300,7 +3273,7 @@ Por que então tal graça recusar?
  D9   A                       E9/G#   F#mA F#m
 Se jesus é quem vai findar a escuridão`},
 
-{ id:46, nome:"Imperfeito",interprete:"Eduardo", tom:"A", bpm:11, cifra:`
+{ id:46, nome:"Imperfeito",intérprete:"Eduardo", tom:"A", bpm:11, cifra:`
 
 [Intro] E  A  D9  E9/A
         E  A  D9  E9
@@ -3369,7 +3342,7 @@ Pai          meu pai
     A9       E
 Me ajude a melhorar`},
 
-{ id:47, nome:"Ovelha Perdida",interprete:"Alan", tom:"G", bpm:70, cifra:`
+{ id:47, nome:"Ovelha Perdida",intérprete:"Alan", tom:"G", bpm:70, cifra:`
 
 [Intro] C# Cm  C# Cm
         A#m  D#  G#
@@ -3475,7 +3448,7 @@ Que aprendeu no sofrimento, só Jesus
 
 [Final] C# Cm  A#m  D#  G#`},
 
-{ id:48, nome:"Insensatez Humana",interprete:"?", tom:"A", bpm:65, cifra:`
+{ id:48, nome:"Insensatez Humana",intérprete:"?", tom:"A", bpm:65, cifra:`
 
 [Intro] A
 
@@ -3555,7 +3528,7 @@ Viver longe de mim, é insensatez
   Bm            E          A
 Viver longe de Mim, é insensatez`},
 
-{ id:49, nome:"Me Rendo aos Teus Pés",interprete:"Vitória", tom:"A", bpm:65, cifra:`
+{ id:49, nome:"Me Rendo aos Teus Pés",intérprete:"Vitória", tom:"A", bpm:65, cifra:`
 
 [Intro] F#m A/E  D7M  C#7(4) C#7
 
@@ -3695,7 +3668,7 @@ E que em mim Tu sejas sempre o maior
          Bm7          C#7         F#m7
 E que em mim Tu sejas sempre o maior`},
 
-{ id:50, nome:"Muda meu nome",interprete:"Vitória", tom:"A", bpm:65, cifra:`
+{ id:50, nome:"Muda meu nome",intérprete:"Vitória", tom:"A", bpm:65, cifra:`
 
 [Intro] D9  A  E
 
@@ -3749,7 +3722,7 @@ Já não ser quem era antes
        F#m             E 
 Não me deixe voltar assim`},
 
-{ id:51, nome:"Deus Acima de Tudo",interprete:"Tainá", tom:"A", bpm:68, cifra:`
+{ id:51, nome:"Deus Acima de Tudo",intérprete:"Tainá", tom:"A", bpm:68, cifra:`
 
 [Verso 1]
          A           A4
@@ -3898,7 +3871,7 @@ Acima de tudo o que há
 [Final] B/D  C#m7 C°
         Bm7  C#/E  A`},
 
-{ id:52, nome:"Alegria",interprete:"Ingrid", tom:"A", bpm:65, cifra:`
+{ id:52, nome:"Alegria",intérprete:"Ingrid", tom:"A", bpm:65, cifra:`
 
 [Intro] A7M  F#m7 D7M  Dm6
 
@@ -3948,7 +3921,7 @@ A Felicidade que tanto procurei
                Bm7
 Em ti, Senhor Jesus eu encontrei`},
 
-{ id:53, nome:"Espirito Enche a Minha Vida",interprete:"Eduardo", tom:"A", bpm:70, cifra:`
+{ id:53, nome:"Espirito Enche a Minha Vida",intérprete:"Eduardo", tom:"A", bpm:70, cifra:`
 
    A      D9            
 Espírito, enche a minha vida
@@ -4011,7 +3984,7 @@ Meu coração eu quero derra_mar
 Diante do Teu altar
 `},
 
-{ id:54, nome:"Te darei",interprete:"Eduardo", tom:"A", bpm:58, cifra:`
+{ id:54, nome:"Te darei",intérprete:"Eduardo", tom:"A", bpm:58, cifra:`
 [Intro] A  F#m7 D  E  F°
         F#m7 C#m7 Bm7  E4  E
 
@@ -4043,7 +4016,7 @@ O que devo eu     te oferecer
    E              E/G#       A  D  E
 Pois Quer a minh'alma em saber`},
 
-{ id:55, nome:"Teu Querer",interprete:"Ingrid", tom:"A", bpm:64, cifra:`
+{ id:55, nome:"Teu Querer",intérprete:"Ingrid", tom:"A", bpm:64, cifra:`
 
 [Intro] F#m C#m D  E
 
@@ -4083,7 +4056,7 @@ O Teu querer, o Teu querer
 E
 Feito em mim`},
 
-{ id:56, nome:"Pare de Sofrer",interprete:"Alan", tom:"A", bpm:68, cifra:`
+{ id:56, nome:"Pare de Sofrer",intérprete:"Alan", tom:"A", bpm:68, cifra:`
 
                A           C#m D
 Se sua vida é tão sofrida 
@@ -4121,7 +4094,7 @@ Agora só depende         de você
    B       F#    E     B    E F#
 Continuar sofrendo ou vencer `},
 
-{ id:57, nome:"Somente a Tua Presença",interprete:"Alan", tom:"A", bpm:65, cifra:`
+{ id:57, nome:"Somente a Tua Presença",intérprete:"Alan", tom:"A", bpm:65, cifra:`
                  A
 Somente a tua presença
       E/G#                F#m
@@ -4161,7 +4134,7 @@ Te entrego a minha vida
     Dm            A
 Meu Deus em tuas mãos`},
 
-{ id:58, nome:"Nem pena Nem papel",interprete:"Alan", tom:"A", bpm:65, cifra:`
+{ id:58, nome:"Nem pena Nem papel",intérprete:"Alan", tom:"A", bpm:65, cifra:`
 
  D        A
 Não te assombres
@@ -4199,7 +4172,7 @@ E não precisa de uma pena
           A
 Nem de papel`},
 
-{ id:59, nome:"Vai dar tudo certo",interprete:"Alan", tom:"A", bpm:68, cifra:`
+{ id:59, nome:"Vai dar tudo certo",intérprete:"Alan", tom:"A", bpm:68, cifra:`
 
 [Intro] A  D  A  D
 
@@ -4263,7 +4236,7 @@ E deu tudo certo
 
 [Final] D  A  D  A`},
 
-{ id:60, nome:"Casa do Pai",interprete:" ", tom:"A", bpm:68, cifra:`
+{ id:60, nome:"Casa do Pai",intérprete:" ", tom:"A", bpm:68, cifra:`
 [Intro] A  Dm6  A  Dm6
 
 A          E/G#
@@ -4369,7 +4342,7 @@ Vivo só pra Ti
 
 [Final] A`},
 
-{ id:61, nome:"Deus me levanta",interprete:"Alan", tom:"A", bpm:65, cifra:`
+{ id:61, nome:"Deus me levanta",intérprete:"Alan", tom:"A", bpm:65, cifra:`
 
 [Verso 1]
 A                D                 A
@@ -4414,7 +4387,7 @@ I am strong, when I am on your shoulders
 You raise me up to more than I can be
 
 `},
-{ id:62, nome:"Tu és + Águas Purificadoras",interprete:"Alan & Tainá", tom:"A", bpm:64, cifra:`
+{ id:62, nome:"Tu és + Águas Purificadoras",intérprete:"Alan & Tainá", tom:"A", bpm:64, cifra:`
 [Intro] F#m7 E/G#  D2
 
 [Verso 1]
@@ -4612,7 +4585,7 @@ A fonte da vida que me encontrou
       D           E       A
 O Messias, o meu Salvador`},
 
-{ id:63, nome:"Os Sonhos de Deus",interprete:"Tainá", tom:"A", bpm:56, cifra:`
+{ id:63, nome:"Os Sonhos de Deus",intérprete:"Tainá", tom:"A", bpm:56, cifra:`
 [Intro] E4  D9  E4  D9
         E4  D9  E4  D9
 
@@ -4771,7 +4744,7 @@ Unção de conquista
                 D9
 Unção de multiplicação`},
 
-{ id:67, nome:"Ressucita-me",interprete:"Alan", tom:"A", bpm:66, cifra:`
+{ id:67, nome:"Ressucita-me",intérprete:"Alan", tom:"A", bpm:66, cifra:`
 [Intro] G6  D/F# F6  A  E
 
 [Verso 1]
@@ -4931,7 +4904,7 @@ Ressuscita-me
             B       
 Ressuscita-me`},
 
-{ id:68, nome:"Teu Santo Nome",interprete:"Vitória", tom:"A", bpm:65, cifra:`
+{ id:68, nome:"Teu Santo Nome",intérprete:"Vitória", tom:"A", bpm:65, cifra:`
 [Intro] D9  A
 
 [Verso 1]
@@ -5038,7 +5011,7 @@ Teu santo nome
 
 [Final] D9  Bm7  D9`},
 
-{ id:69, nome:"Maranata",interprete:"Ingri & Tainá", tom:"A", bpm:75, cifra:`
+{ id:69, nome:"Maranata",intérprete:"Ingri & Tainá", tom:"A", bpm:75, cifra:`
 [Intro] F#m7 D  A  E4
 
 [Verso 1]
@@ -5178,7 +5151,7 @@ Vem Jesus, vem Jesus
      A                      E4  A
 Maranata ora, vem Senhor Jesus`},
 
-{ id:70, nome:"A Casa é Sua",interprete:"?", tom:"A", bpm:118, cifra:`
+{ id:70, nome:"A Casa é Sua",intérprete:"?", tom:"A", bpm:118, cifra:`
 [Intro] A  D/A  F#m7 A/C# D9
 
 [Verso 1]
@@ -5376,7 +5349,7 @@ Essa casa é Sua casa
                    E4   F#m7   
 Nós deixamos ela pra Você`},
 
-{ id:71, nome:"Corpo e Família",interprete:"Pr. Diogo", tom:"A", bpm:63, cifra:`
+{ id:71, nome:"Corpo e Família",intérprete:"Pr. Diogo", tom:"A", bpm:63, cifra:`
 
 [Intro] A  E  F#m  D  Bm  E
 
@@ -5420,7 +5393,7 @@ Eu preciso de ti,   querido irmão
     F#m           D      E      A
 Precioso és para mim, querido irmão`},
 
-{ id:72, nome:"Cristo me Faz Vencer",interprete:"Alan", tom:"A", bpm:72, cifra:`
+{ id:72, nome:"Cristo me Faz Vencer",intérprete:"Alan", tom:"A", bpm:72, cifra:`
 
 [Intro] G  A7  Am  G  D
 
@@ -5472,7 +5445,7 @@ E descanso pelo amanhã
                  Cm7   D#9            A#  F
 A minha fé não é vã     Ele vai me guardar`},
 
-{ id:73, nome:"Salmo 84",interprete:"Alan", tom:"A", bpm:62, cifra:`
+{ id:73, nome:"Salmo 84",intérprete:"Alan", tom:"A", bpm:62, cifra:`
 
 A Bm
 Senhor incline-se a ouvir o meu
@@ -5495,7 +5468,7 @@ Viver
 Bm         D/E A
 Une meu coração ao Teu coração`},
 
-{ id:74, nome:"Quebra Meu Orgulho",interprete:"?", tom:"A", bpm:62, cifra:`
+{ id:74, nome:"Quebra Meu Orgulho",intérprete:"?", tom:"A", bpm:62, cifra:`
 [Intro] E  F#m D  A  E/G# F#m D
 
 [Verso 1]
@@ -5534,7 +5507,7 @@ Me purifica! Eu quero ser limpo
       D        E      A       E
 Como Naamã, no teu poder`},
 
-{ id:75, nome:"[E Ele",interprete:"Vitória", tom:"A", bpm:66, cifra:`
+{ id:75, nome:"[E Ele",intérprete:"Vitória", tom:"A", bpm:66, cifra:`
 
 [Intro] D  E  F#m  
         C#m D  E 
@@ -5768,7 +5741,7 @@ A sua recompensa
 
 Tu és a nossa herança, nosso galardão`},
 
-{ id:76, nome:"Cais",interprete:"Alan", tom:"A", bpm:59, cifra:`
+{ id:76, nome:"Cais",intérprete:"Alan", tom:"A", bpm:59, cifra:`
 
 A
 Sou o teu consolo
@@ -5800,7 +5773,7 @@ Que te guia nestes temporais
                            A
 Por onde fores, sou`},
 
-{ id:77, nome:"Paz",interprete:"A", tom:"A", bpm:52, cifra:`
+{ id:77, nome:"Paz",intérprete:"A", tom:"A", bpm:52, cifra:`
 A D7
 
 A                   D  
@@ -5821,7 +5794,7 @@ Tua mão me tocou
 Carregou com a minha dor
 `},
 
-{ id:78, nome:"Creio em Ti",interprete:"Alan", tom:"A", bpm:60, cifra:`Tom: A
+{ id:78, nome:"Creio em Ti",intérprete:"Alan", tom:"A", bpm:60, cifra:`Tom: A
 [Intro] A  E4  F#m7 D 
         A  E4  F#m7 D 
         A  D  E7
@@ -5889,7 +5862,7 @@ Em ti confiarei
 E         B
 creio em ti!`},
 
-{ id:79, nome:"Quando eu cheguei aqui",interprete:"Alan", tom:"A", bpm:56, cifra:`
+{ id:79, nome:"Quando eu cheguei aqui",intérprete:"Alan", tom:"A", bpm:56, cifra:`
 
   A 
 Quando eu cheguei aqui
@@ -5921,7 +5894,7 @@ Aprendi a usar a minha fé
                  A 
 Hoje eu ando na frente`},
 
-{ id:80, nome:"Solução",interprete:"Alan", tom:"A", bpm:66, cifra:`
+{ id:80, nome:"Solução",intérprete:"Alan", tom:"A", bpm:66, cifra:`
 [Intro] A  C#m  D  E7
         A  C#m  D  E7  E7
 
@@ -6036,7 +6009,7 @@ Sou cristo a solução
 D           A
 Não sofras mais`},
 
-{ id:81, nome:"Te amo",interprete:"Ingrid", tom:"A", bpm:62, cifra:`
+{ id:81, nome:"Te amo",intérprete:"Ingrid", tom:"A", bpm:62, cifra:`
 
    F#m
 Eu me perdi
@@ -6082,7 +6055,7 @@ Minha voz semeará Tua Palavra
        G#m7(5-)           C#7 F#m
 Pra mostrar quanto eu Te amo Jesus`},
 
-{ id:82, nome:"Última Lágrima",interprete:" ", tom:"A", bpm:118, cifra:`Introdução: A9  A9/F#  Bm7  E  D  A9  D/B  Esus
+{ id:82, nome:"Última Lágrima",intérprete:" ", tom:"A", bpm:118, cifra:`Introdução: A9  A9/F#  Bm7  E  D  A9  D/B  Esus
 
         A9         E/G#       F#m9
 Quando neste mundo vi    meus planos
@@ -6109,7 +6082,7 @@ Sem eu mere    - cer
 E           A9
 E me fez feliz`},
 
-{ id:83, nome:"Um Simples Servo",interprete:"Alan", tom:"A", bpm:60, cifra:`
+{ id:83, nome:"Um Simples Servo",intérprete:"Alan", tom:"A", bpm:60, cifra:`
 
    A       F°                  A
 Amor assim,   ninguém jamais me amou assim
@@ -6139,7 +6112,7 @@ Num lindo céu de luz
    C#m       A  A° A
 Um toque assim...`},
 
-{ id:84, nome:"Eu sou Teu Pai",interprete:"Tainá", tom:"A", bpm:65, cifra:`
+{ id:84, nome:"Eu sou Teu Pai",intérprete:"Tainá", tom:"A", bpm:65, cifra:`
 [Intro] D9  A/C# F#m7
         E  D9  E
 
@@ -6302,7 +6275,7 @@ Não preciso de formalidades
      E
 Eu quero intimidade`},
 
-{ id:85, nome:"Se tu quiseres Crer",interprete:"Alan & Tainá", tom:"A", bpm:65, cifra:`
+{ id:85, nome:"Se tu quiseres Crer",intérprete:"Alan & Tainá", tom:"A", bpm:65, cifra:`
 
 F#m(11)          E/G#   C#m          F#m
 Muitos vão orar e querem encontrar alguém
@@ -6357,7 +6330,7 @@ C#                G#             A#m    Fm
 A esperança em ti ninguém jamais irá matar,
   F#       D#m       G#    C#
 Depende só se tu quiseres crer`},
-{ id:86, nome:"Slot",interprete:" ", tom:"A", bpm:118, cifra:``},
-{ id:87, nome:"Slot",interprete:" ", tom:"A", bpm:118, cifra:``},
-{ id:88, nome:"Slot",interprete:" ", tom:"A", bpm:118, cifra:``},
+{ id:86, nome:"Slot",intérprete:" ", tom:"A", bpm:118, cifra:``},
+{ id:87, nome:"Slot",intérprete:" ", tom:"A", bpm:118, cifra:``},
+{ id:88, nome:"Slot",intérprete:" ", tom:"A", bpm:118, cifra:``},
 ];
